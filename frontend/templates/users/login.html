@@ -1,0 +1,14 @@
+{% extends 'frontend/baza.html' %}
+{% block body %}
+    <h1>logowanie</h1>
+    <div class='login'>
+        <form method='POST'>
+            {% csrf_token %}
+            <legend>XD</legend>
+            <fieldset>
+                {{ form }}
+            </fieldset>
+            <button class='login-button' type='submit'>Zaloguj się</button>
+        </form>
+    </div>
+{% endblock body %}

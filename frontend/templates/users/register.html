@@ -1,0 +1,14 @@
+{% extends 'frontend/baza.html' %}
+{% block body %}
+    <h1>rejestracja</h1> 
+    <div class='register'>
+        <form method='POST'>
+            {% csrf_token %}
+            <legend>XD</legend>
+            <fieldset>
+                {{ form }}
+            </fieldset>
+            <button class='register-button' type='submit'>Zarejestruj swoje konto</button>
+        </form>
+    </div>
+{% endblock body %}

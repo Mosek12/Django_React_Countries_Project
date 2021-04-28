@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #17141d;
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    font-family: 'DM Mono', monospace;
+    background-color: rgb(49, 48, 48);
+}
+
+.navbar a {
+    font-size: large;
+    text-decoration: none;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 25px 19px;
+}
+
+.navbar a:hover {
+    background-color: lightslategray;
+}
+
+.navbar .główna {
+    font-weight: 500;
+    font-size: larger;
+}
+
+.navbar .logins {
+    float: right;
+    font-size: medium;
+}
+
+.register-button {
+    background-color: dodgerblue;
+    border-radius: 5px;
+}
+
+.register-button:hover {
+    background-color: blue;
+}

@@ -1,0 +1,16 @@
+{% extends 'frontend/baza.html' %}
+{% block body %}
+<h1>BLOG</h1>
+    <section class='blog-home'>
+        {% for post in posts %}
+            <div class='post'>
+                <header>
+                    <h2>{{post.title}}</h2>
+                </header>
+                <p class='date'>{{post.author}}, {{post.date_posted}}</p>
+                <h6>{{post.short_description}}</h6>
+                <p>{{post.content}}</p>
+            </div>
+        {% endfor %}
+    </section>
+{% endblock body %}

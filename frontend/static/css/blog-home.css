@@ -1,0 +1,15 @@
+.post {
+    width: 33%;
+    margin-left: 2rem;
+    border: 2px solid white;
+    padding: 1rem;
+}
+
+.blog-home {
+    display: flex;
+    gap: 1rem;
+}
+
+.post .date {
+    font-size: smaller;
+}
